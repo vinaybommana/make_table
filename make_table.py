@@ -1,3 +1,6 @@
+from __future__ import print_function
+
+
 def print_upper_bound_line(head, body):
     print("|", end='')
     for index, eye in enumerate(head):
